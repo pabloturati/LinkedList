@@ -15,7 +15,7 @@
 
 struct LinkedList;
 
-struct LinkedList* linkedListCreate();
+struct LinkedList* linkedListCreate(void);
 void linkedListDestroy(struct LinkedList* list);
 void linkedListPrint(struct LinkedList* list);
 
